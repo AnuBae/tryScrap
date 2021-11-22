@@ -1,0 +1,74 @@
+asal
+glints
+karir
+jobstreet
+
+main_link1
+https://glints.com/id/opportunities/jobs/explore?SearchTerm=
+https://www.karir.com/search?q=
+https://www.jobstreet.co.id/id/job-search/
+
+main_link2
+
+&sort_order=urgent_job&job_function_ids=&industry_ids=&degree_ids=&major_ids=&location_ids=&location_id=&location=&salary_lower=0&salary_upper=100000000&page=0&grid=list
+-jobs/
+
+tag_main
+div
+div
+div
+
+tag_main_part
+compact_job_card
+row opportunity-box
+FYwKg _20Cd9_0 _1GAuD _3MPd_ _3ftyQ _1lyEa
+
+tag_lowongan
+h3
+h4
+div
+
+tag_lowongan_part
+CompactOpportunityCardsc__JobTitle-sc-1xtox99-7
+tdd-function-name
+FYwKg _2j8fZ_0 sIMFL_0 _1JtWu_0
+
+tag_perusahaan
+span
+div
+span
+
+tag_perusahaan_part
+CompactOpportunityCardsc__CompanyLinkContainer-sc-1xtox99-9
+tdd-company-name
+FYwKg _2Bz3E C6ZIU_0 _6ufcS_0 _2DNlq_0 _29m7__0
+
+tag_lokasi
+div
+span
+span
+
+tag_lokasi_part
+CompactOpportunityCardsc__OpportunityInfoContainer-sc-1xtox99-11
+tdd-location
+FYwKg _2Bz3E C6ZIU_0 _1_nER_0 _2DNlq_0 sQuda_0
+
+raw_link
+https://glints.com
+https://m.karir.com
+https://www.jobstreet.co.id
+
+tag_deskripsi
+div
+div
+div
+
+tag_deskripsi_part
+Opportunitysc__JobDescriptionContainer-sc-1gsvee3-6
+tdd-opportunities-section__new
+FYwKg d7v3r _3BZ6E_0 _2FwxQ_0
+
+INSERT INTO scrape(asal, main_link1, main_link2, tag_main, tag_main_part, tag_lowongan, tag_lowongan_part, tag_perusahaan, tag_perusahaan_part, tag_lokasi, tag_lokasi_part, raw_link, tag_deskripsi, tag_deskripsi_part) VALUES ("glints", "https://glints.com/id/opportunities/jobs/explore?SearchTerm=", "", "div", "compact_job_card", "h3", "CompactOpportunityCardsc__JobTitle-sc-1xtox99-7", "span", "CompactOpportunityCardsc__CompanyLinkContainer-sc-1xtox99-9", "div", "CompactOpportunityCardsc__OpportunityInfoContainer-sc-1xtox99-11", "https://glints.com", "div", "Opportunitysc__JobDescriptionContainer-sc-1gsvee3-6"), ("karir", "https://www.karir.com/search?q=", "&sort_order=urgent_job&job_function_ids=&industry_ids=&degree_ids=&major_ids=&location_ids=&location_id=&location=&salary_lower=0&salary_upper=100000000&page=0&grid=list", "div", "row opportunity-box", "h4", "tdd-function-name", "div", "tdd-company-name", "span", "tdd-location", "https://m.karir.com", "div", "tdd-opportunities-section__new"), ("jobstreet", "https://www.jobstreet.co.id/id/job-search/", "-jobs/", "div", "FYwKg _20Cd9_0 _1GAuD _3MPd_ _3ftyQ _1lyEa", "div", "FYwKg _2j8fZ_0 sIMFL_0 _1JtWu_0", "span", "FYwKg _2Bz3E C6ZIU_0 _6ufcS_0 _2DNlq_0 _29m7__0", "span", "FYwKg _2Bz3E C6ZIU_0 _1_nER_0 _2DNlq_0 sQuda_0", "https://www.jobstreet.co.id", "div", "FYwKg d7v3r _3BZ6E_0 _2FwxQ_0");
+
+
+idr, vnd

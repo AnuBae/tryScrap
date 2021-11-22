@@ -1,0 +1,1 @@
+ketika mengstemming jangan lupa hilangkan hash word dulu, terutama tanda koma dan titik.

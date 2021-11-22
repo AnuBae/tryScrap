@@ -1,0 +1,671 @@
+<div id="content">
+    <div class="loading"></div>
+    <div class="tdd-opportunities-section" style="position: relative;">
+        <div class="bm-opportunity-profile__new__nav">
+            <div class="bm-opportunity-profile__new__nav__left" style="color: #4A90E2;" onclick="goBack()"><i
+                    class="icon icon-arrow-left2"></i></div>
+            <div class="bm-opportunity-profile__new__nav__right" style="color: #E3E8EF;"></div>
+            <div class="bm-opportunity-profile__new__nav__right__option"><i class="fa fa-ellipsis-h force-fontawesome"
+                    style="font-size: 16px; color: #000;"></i></div>
+        </div>
+        <div class="option-popup">
+            <ul>
+                <li class="bm-opportunity-profile__new__nav__right__share">Bagikan</li>
+            </ul>
+        </div>
+        <div class="bm-opportunity-profile__new">
+            <div class="bm-opportunity-profile__logo__new"><img class="bm-opportunity-profile__logo__img__new"
+                    onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                    src="https://karir-production.nos.jkt-1.neo.id/logos/98/1498598/Logo_ADEC.jpg" alt="Logo adec">
+            </div><time class="bm-opportunity-profile__title__date__new">16 Maret 2021</time>
+            <div class="bm-opportunity-profile__title__new">Staff Ahli Teknik Lingkungan</div>
+            <div class="bm-opportunity-profile__title__company"><a href="/companies/110220">PT Artha Demo Engineering
+                    Consultant</a></div><span class="salary" style="">Gaji Kompetitif</span>
+        </div>
+        <div class="b-modal" id="report-modal" style="display: none;">
+            <div class="b-modal__body modal-mobile-body" id="report-modal-body">
+                <div class="modal__title__mobile" id="report-modal-title">
+                    <h4 class="modal-title"><strong>Laporkan Lowongan Ini</strong></h4>
+                </div>
+                <div class="modal__info__mobile" id="report-modal-info">
+                    <form action="#" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden"
+                            value="✓"><input type="hidden" name="authenticity_token"
+                            value="livbzsrrm4vtKW/w/80kejmckTY6uy9YK5UggXBadcSy5F2hVn28MmsP90EV+6vDXfjSvv0VOxHH+cid70Sf7A==">
+                        <h5><strong>Alasan</strong></h5>
+                        <ul>
+                            <li class="reason-list-container"><input type="radio" name="report_reason"
+                                    id="report_reason_0" value="0"><label for="report_reason_0">Ini penipuan, meminta
+                                    bayaran, atau memposting link mencurigakan</label></li>
+                            <li class="reason-list-container"><input type="radio" name="report_reason"
+                                    id="report_reason_1" value="1"><label for="report_reason_1">Ini beriklan atau
+                                    spam</label></li>
+                            <li class="reason-list-container"><input type="radio" name="report_reason"
+                                    id="report_reason_2" value="2"><label for="report_reason_2">Ini diskriminatif atau
+                                    mengandung SARA</label></li>
+                            <li class="reason-list-container"><input type="radio" name="report_reason"
+                                    id="report_reason_3" value="3"><label for="report_reason_3">Ini tidak sesuai
+                                    (alamat, gaji, job desc)</label></li>
+                            <li class="reason-list-container"><input type="radio" name="report_reason"
+                                    id="report_reason_4" value="4"><label for="report_reason_4">Lainnya</label></li>
+                        </ul>
+                        <h5><strong>Kronologi<span class="red-text">*</span></strong></h5><textarea
+                            name="report_chronology" id="report_chronology" rows="10"
+                            placeholder="Tulis kronologi. Apabila Anda memiliki bukti video, harap upload video ke cloud atau Youtube, dan lampirkan link di sini"></textarea>
+                        <hr>
+                        <h5><strong>Unggah Bukti</strong></h5>
+                        <div class="upload-image-container"><label id="upload-report-image-button"
+                                for="upload-report-image" style="flex-shrink: 0;"><img id="upload-image-icon"
+                                    src="/assets/images/icons/upload_image_icon.png"><input type="file" accept="image/*"
+                                    id="upload-report-image" style="display:none" name="report_image[]"></label><span
+                                id="upload-info" style="margin-left: 10px;">Format JPG atau PNG.<br>Ukuran maksimum
+                                total file 2 MB.</span></div><input type="hidden" name="IREFERRER" value="direct"><input
+                            type="hidden" name="LREFERRER" value="direct"><input type="hidden" name="ILANDPAGE"
+                            value="https%3A//m.karir.com/search%3Fdegree_ids%3D%26grid%3Dlist%26industry_ids%3D%26job_function_ids%3D%26location%3D%26location_id%3D%26location_ids%3D%26major_ids%3D%26page%3D0%26q%3Dteknik%26salary_lower%3D0%26salary_upper%3D100000000%26sort_order%3Durgent_job"><input
+                            type="hidden" name="VISITS" value="1">
+                    </form>
+                    <div class="report-button-container"><button class="b-button report-button"
+                            id="cancel-report"><strong>Batalkan</strong></button><button class="b-button report-button"
+                            id="submit-report"><strong>Kirim</strong></button></div>
+                </div>
+            </div>
+        </div>
+        <div class="bm-opportunity-stat">
+            <ul class="bm-opportunity-stat__left">
+                <li class="bm-opportunity-stat__item"><i class="bm-opportunity-stat__icon icon-Location"></i>
+                    <div class="bm-opportunity-stat__value">head office - Bandung</div>
+                </li>
+                <li class="bm-opportunity-stat__item"><i class="bm-opportunity-stat__icon icon-JobFunction"></i>
+                    <div class="bm-opportunity-stat__value">Konsultan</div>
+                </li>
+                <li class="bm-opportunity-stat__item"><i class="bm-opportunity-stat__icon icon-Experience"></i>
+                    <div class="bm-opportunity-stat__value">Setidaknya 1 tahun</div>
+                </li>
+            </ul>
+            <ul class="bm-opportunity-stat__right">
+                <li class="bm-opportunity-stat__item"><i class="bm-opportunity-stat__icon icon-CareerLevel"></i>
+                    <div class="bm-opportunity-stat__value">Staf Senior</div>
+                </li>
+                <li class="bm-opportunity-stat__item"><i class="bm-opportunity-stat__icon icon-Education"></i>
+                    <div class="bm-opportunity-stat__value">Sarjana/S1, Master/S2</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="tdd-opportunities-section__new">
+        <div class="tdd-opportunities-section__new__title">Description</div>
+        <div class="i-matte">
+            <div class="b-matte">
+                <section class="b-matte__content">
+                    <p>o Melakukan Survey</p>
+                    <p>o Mencatat data lapangan atau laboratorium, termasuk data numerik, hasil tes, foto, atau
+                        ringkasan dari pengamatan visual</p>
+                    <p>o Menjalankan kualitas lingkungan kerja dalam tata cara lapangan atau kantor</p>
+                    <p>o Membuat laporan penilaian lingkungan, menyusun dan menyiapkan data dalam bentuk tabel, bagan,
+                        grafik, atau sketsa</p>
+                    <p>o Mengumpulkan dan menganalisa sampel polusi, seperti udara atau air tanah</p><br>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="tdd-opportunities-section__new">
+        <div class="tdd-opportunities-section__new__title">Requirements</div>
+        <div class="i-matte">
+            <div class="b-matte">
+                <section class="b-matte__content">
+                    <p>o Pria/Wanita</p>
+                    <p>o Bersedia lembur</p>
+                    <p>o Bersedia bekerja dibawah tekanan</p>
+                    <p>o Fresh graduate/berpengalaman</p>
+                    <p>o Menguasai MIcrosoft Office</p>
+                    <p>o Mampu menganalisa</p>
+                    <p>o Mampu bekerja dalam tim</p>
+                    <p>o Pernah mengikuti kursus AMDAL</p>
+                    <p>o Pernah mengerjakan UKL /UPL dan KLHS</p>
+                    <p>o Memiliki SKA</p><br>
+                    <p>Silahkan kirim berkas-berkas Lamaran : <br><br>1.&nbsp;&nbsp;&nbsp; Pash Foto
+                        (4x6)<br>2.&nbsp;&nbsp;&nbsp; fc KTP, fc NPWP, <br>3.&nbsp;&nbsp;&nbsp; fc Ijasah Terakhir (cap
+                        basah) <br>4.&nbsp;&nbsp;&nbsp; fc SKA/ SKT<br>5.&nbsp;&nbsp;&nbsp; CV<br>6.&nbsp;&nbsp;&nbsp;
+                        Porto Folio<br><br>Kirim ke alamat perusahaan kami : <br><br>PT. Artha Demo Engineering
+                        Consultant <br>Jl. Prof. drg. Suryasumantri, Komplek Setrasari Mall Blok C1-73
+                        Bandung.<br><br>Berkas bisa dikirim via post / paket / datang langsung ke alamat perusahaan kami
+                        diatas.<br>Terima kasih</p>
+                    <p>Hrd PT. ADEC<br><br></p>
+                </section>
+            </div>
+        </div>
+        <div class="alert alert-danger-custom"><i class="fa fa-exclamation-triangle force-fontawesome"></i>
+            <strong>Disclaimer:</strong><span style="color: black;"> melamar pekerjaan di Karir.com tidak dipungut
+                biaya</span></div>
+    </div>
+    <div class="side-notification-background" style="height: 100%; width: 0px; position: fixed; display: block; background-color: rgba(0,0,0,0.5); top: 0;
+z-index: 1000;">
+        <div class="side-notification"
+            style="position: fixed; top: 370px; z-index: 10; background: white; width: 90%; right: -90%; padding: 15px 20px 0px 15px;">
+            <span class="side-notification-icon glyphicon glyphicon-bell"
+                style="color: white; padding: 53px 5px; font-size: 21px; position: absolute; left: -30px; height: 101%; width: 30px; border-radius: 10px 0px 0px 10px; background: #1F96FF; top: 0px;"></span>
+            <p style="color: #1D62AE; font-size: 14px; font-weight: bold; line-height: 17px;">Dapatkan rekomendasi
+                lowongan-lowongan terbaru dengan meninggalkan email Anda di bawah ini.</p>
+            <form id="subscription_email"><input id="email_subscription" type="text" placeholder="Email Anda"
+                    style="width: 67%; display: inline-block; margin-right: 3%;"><input type="submit"
+                    style="width: 30%; background: white; color: #1F96FF; border: 2px solid; font-weight: bold; box-shadow: none;"><input
+                    type="hidden" name="IREFERRER" value="direct"><input type="hidden" name="LREFERRER"
+                    value="direct"><input type="hidden" name="ILANDPAGE"
+                    value="https%3A//m.karir.com/search%3Fdegree_ids%3D%26grid%3Dlist%26industry_ids%3D%26job_function_ids%3D%26location%3D%26location_id%3D%26location_ids%3D%26major_ids%3D%26page%3D0%26q%3Dteknik%26salary_lower%3D0%26salary_upper%3D100000000%26sort_order%3Durgent_job"><input
+                    type="hidden" name="VISITS" value="1"></form>
+        </div>
+    </div>
+    <div class="b-modal" id="social-media" style="display: none">
+        <div class="b-modal__content --wide">
+            <div class="b-modal__body">
+                <h6>Share on Social Media</h6>
+                <div class="social_mobile_share" style="font-size: 28px;"><br><a
+                        href="whatsapp://send?text=https://m.karir.com/opportunities/1308631"
+                        data-action="share/whatsapp/share"><i class="icon ion-logo-whatsapp"
+                            style="color: #34AF23"></i></a><br><a
+                        href="http://www.facebook.com/sharer/sharer.php?u=https://m.karir.com/opportunities/1308631&amp;t=Staff Ahli Teknik Lingkungan"
+                        class="share-button facebook" target="_blank"><i class="icon ion-logo-facebook"
+                            style="color: #3B5998"></i></a><br><a
+                        href="http://www.twitter.com/intent/tweet?url=https://m.karir.com/opportunities/1308631&amp;text=Staff Ahli Teknik Lingkungan"
+                        class="share-button twitter" target="_blank"><i class="icon ion-logo-twitter"
+                            style="color: #1DA1F2"></i></a><br><a
+                        href="http://plus.google.com/share?url=https://m.karir.com/opportunities/1308631"
+                        class="share-button google" target="_blank"><i class="icon ion-logo-googleplus"
+                            style="color: #EA4335"></i></a><br><a
+                        href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://m.karir.com/opportunities/1308631"
+                        class="share-button linkedin" target="_blank"><i class="icon ion-logo-linkedin"
+                            style="color: #1c87bd"></i></a><br></div>
+            </div>
+            <div class="close-modal b-close --default"></div>
+        </div>
+    </div>
+    <div class="bm-apply-button-section" style="border:none;">
+        <div class="row"><a class="b-button --blue-2 --wide tdd-public-apply"
+                href="/users/sign_in?return_to=https%3A%2F%2Fm.karir.com%2Fopportunities%2F1308631">Lamar</a></div>
+        <script type="text/javascript">
+            var url = "https://m.karir.com/api/load_test/1308631";
+            var url_ajax_apply = "/1308631/ajax_apply";
+
+            function applyPost(completing_requirement_only, all_rules_done) {
+                $('.loading').show();
+
+                var checked_branch = $.map($('input[name="branch[]"]:checked'), function (c) {
+                    return c.value;
+                });
+
+                var ajax_apply_data = {
+                    branches: checked_branch
+                };
+                $.post(url_ajax_apply, ajax_apply_data, function (resp) {
+                    if (!completing_requirement_only || resp.type == "notice") {
+                        forceDisplayFlash(resp.type, resp.message);
+                    }
+                    if (resp.type == "notice") {
+                        if (all_rules_done) {
+                            $('#apply-button-submit-page').addClass('grey-disabled').removeClass('--blue-2');
+                            $('#apply-button-submit-page').addClass('--disabled');
+                            $('#apply-button-submit-page').val('Sudah dilamar');
+                        } else {
+                            $('#apply-button-submit-page').val('Lengkapi Persyaratan');
+                        }
+                        pushData('apply');
+                    }
+                    $("html, body").animate({
+                        scrollTop: 0
+                    }, "slow");
+
+                }).always(function () {
+                    $('.loading').hide();
+                });
+            }
+
+            function checkBeforeApply() {
+                $.get(url, function (data, status) {
+                    if (data['has_quizzes'] == true) {
+                        $('.modal-quiz-show').show();
+                        $('#footer_new').hide();
+                    } else {
+                        if (data['has_rules'] == true) {
+                            $('.modal-quiz-show').show();
+                            $('#footer_new').hide();
+                        } else {
+                            data['all_rules_done'] = true
+                        }
+                        applyPost(data['has_rules'], data['all_rules_done']);
+                    }
+
+                    $('#opportunity-branch').hide();
+                });
+            }
+
+            function showWidgetSpecific(choosen_widget) {
+                setCookie("last_widget", choosen_widget, 365);
+                // sent tracker
+                var selector_widget = document.getElementsByClassName(choosen_widget)[0];
+                Tracker.track(selector_widget, 'guest');
+
+                $('.' + choosen_widget).show();
+            }
+
+            function showWidget() {
+                // show pop up widget logic
+                if ($('.widget_kelascom').length == 0 || $('.widget_kredivo').length == 0) {
+                    return;
+                }
+
+                var widget_lists = ['widget_kelascom', 'widget_kredivo'];
+
+                var choosen_widget = widget_lists[Math.floor(Math.random() * widget_lists.length)];
+
+                $('.widget_kelascom').hide();
+                $('.widget_kredivo').hide();
+
+                var viewed_widget = getCookie("last_widget");
+                if (viewed_widget === undefined) {
+                    showWidgetSpecific(choosen_widget);
+                } else {
+                    if (viewed_widget == "widget_kredivo") {
+                        showWidgetSpecific("widget_kelascom");
+                    } else {
+                        showWidgetSpecific("widget_kredivo");
+                    }
+                }
+
+
+                // if ( viewed_widget === undefined){
+                //   setCookie(choosen_widget, true, 1);
+                //   // sent tracker
+                //   var selector_widget = document.getElementsByClassName(choosen_widget)[0];
+                //   Tracker.track(selector_widget,'guest');
+
+                //   $('.'+choosen_widget).show();
+                // } else {
+                //   var viewed_widget = getCookie(not_choosen_widget);
+                //   if ( viewed_widget === undefined){
+                //     setCookie(not_choosen_widget, true, 1);
+                //     // sent tracker
+                //     var selector_widget = document.getElementsByClassName(not_choosen_widget)[0];
+                //     Tracker.track(selector_widget,'guest');
+
+                //     $('.'+not_choosen_widget).show();
+                //   } 
+                // }
+            }
+
+
+            window.addEventListener('load', function () {
+                $(".close-modal").click(function () {
+                    $('.b-modal').hide();
+                    $('#footer_new').show();
+                });
+                $("form.form-with-loading").submit(function (e) {
+                    if ($(this)[0].checkValidity()) {
+                        $('.loading').show();
+                        pushData('apply');
+                    }
+                });
+                $("#apply-limit-company").click(function (e) {
+                    $('.modal-limit-company').show();
+                });
+                $('#apply-button-submit-page').click(function (e) {
+                    // check has branches
+                    var count_branches = $('#opportunity-branch .item-branch').length;
+                    if (count_branches > 0) {
+                        $('#opportunity-branch').show();
+                        return;
+                    }
+                    checkBeforeApply();
+                });
+                $("#apply-button-submit").click(function (e) {
+                    e.preventDefault();
+                    checkBeforeApply();
+                });
+
+                // showWidget();
+
+            }, false);
+        </script>
+    </div>
+    <div class="related_ads" style="padding: 15px;">
+        <div style="height:60px;">
+            <h4
+                style="float:left; color: #1D62AE; font-size: 14px; font-weight: bold; line-height: 17px; margin-bottom: 10px;">
+                Lowongan Serupa</h4>
+        </div>
+        <div id="home-mobile-new-job" style="overflow: scroll;">
+            <div class="scroll-right-box">
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1299559"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1299559">Project Staff</a></div>
+                    <div class="company-name"><a href="/opportunities/1299559">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1299612"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1299612">Staff Operational Batch I</a></div>
+                    <div class="company-name"><a href="/opportunities/1299612">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1299613"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1299613">Staff Administrasi Batch I</a></div>
+                    <div class="company-name"><a href="/opportunities/1299613">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1299614"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1299614">Staff Perkantoran Batch I</a></div>
+                    <div class="company-name"><a href="/opportunities/1299614">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1299633"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1299633">Staff Purchasing Batch I</a></div>
+                    <div class="company-name"><a href="/opportunities/1299633">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1299811"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1299811">Staff Internal Audit Batch I</a></div>
+                    <div class="company-name"><a href="/opportunities/1299811">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1299812"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1299812">General Affair Staff Batch I</a></div>
+                    <div class="company-name"><a href="/opportunities/1299812">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1303912"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1303912">PPIC Staff Batch IV</a></div>
+                    <div class="company-name"><a href="/opportunities/1303912">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1303918"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1303918">Junior Staff Accounting Batch IV</a></div>
+                    <div class="company-name"><a href="/opportunities/1303918">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 3.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+                <div class="opportunity_box_new" style="height: 232px;">
+                    <div class="bm-property-item__figure" style="display: inline-flex;"><a href="/opportunities/1304658"
+                            style="margin: auto;"><img alt="Lowongan pekerjaan di PT Republik Indonesia Finance"
+                                onerror="this.onerror=null;this.src='https://karir-production.nos.jkt-1.neo.id/assets/images/company/no_image.png';"
+                                src="https://karir-production.nos.jkt-1.neo.id/logos/34/5535434/Hijau_dan_Emas_Bola_Basket_Logo.jpg"></a>
+                    </div>
+                    <div class="opportunity-name" style="font-size: 14px; align-items: normal; overflow: hidden;"><a
+                            href="/opportunities/1304658">Staff Internal Audit Batch III</a></div>
+                    <div class="company-name"><a href="/opportunities/1304658">PT Republik Indonesia Finance</a></div>
+                    <ul class="bm-property-item__detail">
+                        <li style="margin-bottom: 5px;"><span class="bm-property-item__ico-detail"
+                                style="font-size: 12px;"><i class="icon-Location bm-property-item__ico"
+                                    style="font-size: 10px; margin-right: 2px; color: #ACACAC;"></i>Bandung</span></li>
+                        <li><span class="bm-property-item__ico-detail"><span class="salary" style="">IDR 4.000.000 -
+                                    5.000.000</span></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b-modal" id="opportunity-branch" style="z-index: 1001" data-id="1308631">
+        <div class="b-modal__body modal-mobile-body" id="opportunity-branch-mobile-body">
+            <div class="b-modal__title__mobile">Pilih Cabang<i class="ion-md-close b-modal__close__mobile"></i></div>
+            <div class="b-modal__info__mobile">
+                <ul>
+                    <li><input type="checkbox" name="branch[]" id="branch_3483" value="3483"
+                            class="filled-in item-branch" readonly="readonly" onclick="return false;"
+                            checked="checked"><label for="branch_3483">head office</label></li>
+                </ul>
+            </div>
+            <div class="b-modal__button__mobile"><input type="submit" name="commit" value="Lamar"
+                    class="b-button --blue-2 signed-in-apply apply_button_new apply_button_branch"
+                    id="apply-button-submit"></div>
+        </div>
+    </div>
+    <div class="b-modal" id="pop-up-subsribe" style="display: none">
+        <div class="b-modal__content --wide">
+            <div class="b-modal__body"><img src="https://karir-production.nos.jkt-1.neo.id/assets/images/notif-03.png"
+                    style="max-width: 220px; max-height: 100px">
+                <p
+                    style="text-align: center; margin-bottom: 20px; color: #1D62AE; font-size: 14px; font-weight: bold; line-height: 17px;">
+                    Dapatkan rekomendasi lowongan-lowongan terbaru dengan meninggalkan email Anda di bawah ini.</p>
+                <form action="/opportunities/1308631/subscribe?source=POP_UP" accept-charset="UTF-8" method="post">
+                    <input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token"
+                        value="livbzsrrm4vtKW/w/80kejmckTY6uy9YK5UggXBadcSy5F2hVn28MmsP90EV+6vDXfjSvv0VOxHH+cid70Sf7A=="><input
+                        type="email" name="email" id="email" placeholder="Input email anda"
+                        class="input_email_subscribe" style="margin-bottom: 10px;" required="required"><input
+                        type="submit" name="commit" value="OK" class="b-button --blue-2 job-subscribe"><a
+                        class="popup-job-skip" id="closePopupSubscribe" href="javascript:void(0)">Lewati</a><input
+                        type="hidden" name="IREFERRER" value="direct"><input type="hidden" name="LREFERRER"
+                        value="direct"><input type="hidden" name="ILANDPAGE"
+                        value="https%3A//m.karir.com/search%3Fdegree_ids%3D%26grid%3Dlist%26industry_ids%3D%26job_function_ids%3D%26location%3D%26location_id%3D%26location_ids%3D%26major_ids%3D%26page%3D0%26q%3Dteknik%26salary_lower%3D0%26salary_upper%3D100000000%26sort_order%3Durgent_job"><input
+                        type="hidden" name="VISITS" value="1"></form>
+            </div>
+            <div class="close-modal b-close --default"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('load', function () {
+            $(document).on("click", ".bm-opportunity-profile__new__nav__right__option", function (e) {
+                $('.option-popup').show();
+            });
+
+            $('body').click(function (e) {
+                var class_except = 'option-popup';
+                if (e.target.className.includes(class_except))
+                    return;
+
+                //For descendants of menu_content being clicked, remove this check if you do not want to put constraint on descendants.
+
+                if ($(e.target).closest('.' + class_except).length)
+                    return;
+                //Do processing of click event here for every element except with id menu_content
+                $('.' + class_except).hide();
+            });
+
+            $('.side-notification-icon').click(function (e) {
+                if ($('.side-notification').css('right') != "0px") {
+                    $('.side-notification').css('right', '0px');
+                    $('.side-notification-background').css('width', '100%');
+                } else {
+                    $('.side-notification').css('right', '-90%');
+                    $('.side-notification-background').css('width', '0px');
+                }
+            });
+
+            $('.side-notification-background').click(function (e) {
+                if ($(e.target).hasClass('side-notification-background')) {
+                    $('.side-notification').css('right', '-90%');
+                    $('.side-notification-background').css('width', '0px');
+                }
+            });
+
+            $(document).on('click', '#show-all-location', function () {
+                $('#opportunity-location').show();
+            });
+
+            $('.bm-info-alert_close').on('click', function () {
+                $(this).closest('.bm-info-alert__wrapper').hide();
+            });
+
+            $('#subscription_email').submit(function (e) {
+                var email = $('#email_subscription').val();
+                var url = "/opportunities/1308631/subscribe?source=WIDGET" + "&email=" + email;
+                e.preventDefault();
+                $('.side-notification').css('right', '-90%');
+                $('.side-notification-background').css('width', '0px');
+
+                $.ajax({
+                    url: url,
+                    type: "post",
+                    data: null,
+                    success: function (response) {
+                        forceDisplayFlash('notice', 'Berhasil Mengikuti');
+                        $("html, body").animate({
+                            scrollTop: 0
+                        }, "slow");
+                        $('#email_subscription').val('');
+                    },
+                    error: function (jqXHR, textStatus, errorThrown) {
+                        console.log(textStatus, errorThrown);
+                    }
+                });
+            });
+        }, false);
+
+        function showShare() {
+            document.getElementById('social-media').style.display = 'block';
+        }
+
+        function goBack() {
+            var prevPage = window.location.href;
+
+            if (document.referrer == "") {
+                window.close();
+                setTimeout(function () {
+                    if (window.location.href == prevPage) {
+                        window.location.href = "https://m.karir.com/search";
+                    }
+                }, 500);
+            } else {
+                history.back();
+                setTimeout(function () {
+                    if (window.location.href == prevPage) {
+                        window.close();
+                        window.location.href = document.referrer;
+                    }
+                }, 500);
+            }
+        }
+        document.getElementsByClassName("bm-opportunity-profile__new__nav__right__share")[0].addEventListener('click',
+            showShare);
+    </script>
+    <style type="text/css">
+        #content {
+            padding: 0px;
+        }
+
+        .slideout-panel {
+            background: white;
+        }
+
+        .bm-apply-button-section {
+            font-weight: bold;
+        }
+
+        .job-subscribe {
+            width: 100%;
+        }
+
+        #closePopupSubscribe {
+            width: 100%;
+            border: 1px solid #1D62AE;
+            border-radius: 1px;
+            box-shadow: 1px 2px 4px -1px rgba(0, 0, 0, 0.48);
+            text-align: center;
+            display: block;
+            height: 30px;
+            margin-top: 10px;
+            padding-top: 4px;
+        }
+    </style>
+</div>
